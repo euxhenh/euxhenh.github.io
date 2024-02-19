@@ -12,6 +12,39 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "area": "Machine Learning",
+      "studyType": "PhD",
+      "startDate": "2021",
+      "endDate": "2025"
+    },
+    {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "area": "Machine Learning",
+      "studyType": "MS",
+      "startDate": "2019",
+      "endDate": "2020"
+    },
+    {
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "area": "Computer Science, Mathematics",
+      "studyType": "BA",
+      "startDate": "2015",
+      "endDate": "2019"
+    },
+    {
+      "institution": "University of Iowa",
+      "location": "Iowa City, IA",
+      "studyType": "Exchange Student",
+      "startDate": "2018",
+      "endDate": "2018"
+    }
+  ],
   "work": [
     {
       "name": "Sanofi",
@@ -44,39 +77,6 @@
       "endDate": "2018-08",
       "summary": "Investigated deep learning methods for real-time face detection and developed face tracking algorithms.",
       "highlights": ["Computer Vision"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Carnegie Mellon University",
-      "location": "Pittsburgh, PA",
-      "area": "Machine Learning",
-      "studyType": "PhD",
-      "startDate": "2021",
-      "endDate": "2025"
-    },
-    {
-      "institution": "Carnegie Mellon University",
-      "location": "Pittsburgh, PA",
-      "area": "Machine Learning",
-      "studyType": "MS",
-      "startDate": "2019",
-      "endDate": "2020"
-    },
-    {
-      "institution": "American University in Bulgaria",
-      "location": "Blagoevgrad, Bulgaria",
-      "area": "Computer Science, Mathematics",
-      "studyType": "BA",
-      "startDate": "2015",
-      "endDate": "2019"
-    },
-    {
-      "institution": "University of Iowa",
-      "location": "Iowa City, IA",
-      "studyType": "Exchange Student",
-      "startDate": "2018",
-      "endDate": "2018"
     }
   ],
   "teaching": [
