@@ -1,5 +1,5 @@
 {
-  "basics": {
+  "Info": {
     "name": "Euxhen Hasanaj",
     "label": "Ph.D. Student",
     "image": "",
@@ -16,32 +16,32 @@
     {
       "name": "Sanofi",
       "position": "Computational Biology Research Intern",
-      "startDate": "May 2023",
-      "endDate": "Aug. 2023",
+      "startDate": "2023-05",
+      "endDate": "2023-08",
       "summary": "Analyzing longitudinal gene expression data from patients with a few time points.",
       "highlights": ["Trajectory inference"]
     },
     {
       "name": "Genesis Therapeutics",
       "position": "Machine Learning Research Intern",
-      "startDate": "May 2022",
-      "endDate": "Aug. 2022",
+      "startDate": "2022-05",
+      "endDate": "2022-08",
       "summary": "Researched and developed deep generative models for de novo drug design, optimizing for novelty and diversity of molecules.",
       "highlights": ["Drug Discovery"]
     },
     {
       "name": "Ritech",
       "position": "Machine Learning Engineer",
-      "startDate": "Jan. 2021",
-      "endDate": "Aug. 2021",
+      "startDate": "2021-01",
+      "endDate": "2021-08",
       "summary": "Proposed and implemented novel computer vision models for various tasks such as monocular depth estimation, image classification, and image segmentation.",
       "highlights": ["Computer Vision"]
     },
     {
       "name": "Centroida",
       "position": "Machine Learning Engineer",
-      "startDate": "Nov. 2017",
-      "endDate": "Aug. 2018",
+      "startDate": "2017-11",
+      "endDate": "2018-08",
       "summary": "Investigated deep learning methods for real-time face detection and developed face tracking algorithms.",
       "highlights": ["Computer Vision"]
     }
