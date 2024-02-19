@@ -1,85 +1,82 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{nguyenOptimalTransportMapping2023,
+  abbr = {Preprint},
+  title = {Optimal Transport for Mapping Senescent Cells in Spatial Transcriptomics},
+  abstract = {Spatial transcriptomics (ST) provides a unique opportunity to study cellular organization and cell-cell interactions at the molecular level. However, due to the low resolution of the sequencing data additional information is required to utilize this technology, especially for cases where only a few cells are present for important cell types. To enable the use of ST to study senescence we developed scDOT, which combines ST and single cell RNA-Sequencing (scRNA Seq) to improve the ability to reconstruct single cell resolved spatial maps. scDOT integrates optimal transport and expression deconvolution to learn non-linear couplings between cells and spots and to infer cell placements. Application of scDOT to existing and new lung ST data improves on prior methods and allows the identification of the spatial organization of senescent cells, the identification of their neighboring cells and the identification of novel genes involved in cell-cell interactions that may be driving senescence.},
+  author = {Nam D. Nguyen and Lorena Rosas and Timur Khaliullin and Peiran Jiang and Euxhen Hasanaj and Jose A. Ovando and Marta Bueno and Melanie Konigshoff and Oliver Eickelberg and Mauricio Rojas and Ana L. Mora and Jose Lugo-Martinez and Ziv Bar-Joseph},
+  year = {2023},
+  month = aug,
+  pages = {2023.08.16.553591},
+  publisher = {{bioRxiv}},
+  urldate = {2023-08-21},
+  copyright = {\textcopyright{} 2023, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.},
+  langid = {english},
+  pdf={OT.pdf}
+}
 
-@book{einstein1956investigations,
+@article{leeNIHSenNetConsortium2022b,
+  abbr={NatureAging},
+  title = {{{NIH SenNet Consortium}} to Map Senescent Cells throughout the Human Lifespan to Understand Physiological Health},
+  abstract={Cells respond to many stressors by senescing, acquiring stable growth arrest, morphologic and metabolic changes, and a proinflammatory senescence-associated secretory phenotype. The heterogeneity of senescent cells (SnCs) and senescence-associated secretory phenotype are vast, yet ill characterized. SnCs have diverse roles in health and disease and are therapeutically targetable, making characterization of SnCs and their detection a priority. The Cellular Senescence Network (SenNet), a National Institutes of Health Common Fund initiative, was established to address this need. The goal of SenNet is to map SnCs across the human lifespan to advance diagnostic and therapeutic approaches to improve human health. State-of-the-art methods will be applied to identify, define and map SnCs in 18 human tissues. A common coordinate framework will integrate data to create four-dimensional SnC atlases. Other key SenNet deliverables include innovative tools and technologies to detect SnCs, new SnC biomarkers and extensive public multi-omics datasets. This Perspective lays out the impetus, goals, approaches and products of SenNet.},
+  author = {SenNet Consortium},
+  year = {2022},
+  month = dec,
+  journal = {Nature Aging},
+  pages = {1--11},
+  publisher = {{Nature Publishing Group}},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  copyright = {2022 Springer Nature America, Inc.},
+  langid = {english},
+  pdf={senescence.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{robertsAutoMLDecathlonDiverse2022,
+  abbr={PMLR NeurIPS},
+  title = {{{AutoML Decathlon}}: {{Diverse Tasks}}, {{Modern Methods}}, and {{Efficiency}} at {{Scale}}},
+  abstract={The vision of Automated Machine Learning (AutoML) is to produce high performing ML pipelines that require very little human involvement or domain expertise to use. Competitions and benchmarks have been critical tools for accelerating progress in AutoML. However, much of the prior work on AutoML competitions has focused on well-studied domains in machine learning such as vision and language—these are domains which have benefited from several years of ML pipeline design by domain experts, which brings the usage of AutoML into question in the first place. Recently, AutoML for diverse tasks has emerged as an important research area that aims to bring AutoML to the domains where it can have the most impact: the long tail of ML tasks beyond vision and language. We present a retrospective report of the AutoML Decathlon—an AutoML for diverse tasks competition hosted at NeurIPS 2022. The AutoML Decathlon presented participants with a set of 10 machine learning tasks that are diverse along several axes: domain, input dimension, output dimension, output type, objective function, and scale. Participants were tasked with developing AutoML methods that performed well on a separate set of 10 hidden diverse test tasks within a certain time budget, so as to discourage overfitting to the initial set of tasks and to encourage efficiency. In this report, we outline the details of the competition, discuss the top-5 submissions, analyze the results, and compare top submissions to additional state-of-the-art baselines designed specifically for diverse tasks. We conclude that the combination of existing efficient AutoML techniques with modern advancements in ML such as large-scale transfer learning, modern architectures, and differentiable Neural Architecture Search (NAS) is a promising direction for AutoML for diverse tasks.
+},
+  shorttitle = {{{AutoML Decathlon}}},
+  booktitle = {Proceedings of the {{NeurIPS}} 2022 {{Competitions Track}}},
+  author = {Roberts, Nicholas and Guo, Samuel and Xu, Cong and Talwalkar, Ameet and Lander, David and Tao, Lvfang and Cai, Linhang and Niu, Shuaicheng and Heng, Jianyu and Qin, Hongyang and Deng, Minwen and Hog, Johannes and Pfefferle, Alexander and Shivakumar, Sushil Ammanaghatta and Krishnakumar, Arjun and Wang, Yubo and Sukthanker, Rhea and Hutter, Frank and Hasanaj, Euxhen and Le, Tien-Dung and Khodak, Mikhail and Nevmyvaka, Yuriy and Rasul, Kashif and Sala, Frederic and Schneider, Anderson and Shen, Junhong and Sparks, Evan},
+  year = {2022},
+  month = nov,
+  pages = {151--170},
+  publisher = {{PMLR}},
+  urldate = {2023-09-19},
+  langid = {english},
+  pdf={automl.pdf}
+}
+
+@article{HasanajPC2022,
+  abbr={Cell R. M.},
+  code={https://github.com/euxhenh/phenotype-cover-experiments},
+  abstract={Markers are increasingly being used for several high throughput data analysis and experimental design tasks. Examples include the use of markers for assigning cell types in scRNA-seq studies, for deconvolving bulk gene expression data, and for selecting marker proteins in single cell spatial proteomics studies. Most marker selection methods focus on differential expression (DE) analysis. While such methods work well for data with a few non-overlapping marker sets, they are not appro- priate for large atlas-size datasets where several cell types and tissues are considered. To address this, we define the phenotype cover (PC) problem for marker selection and present algorithms that can improve the discriminative power of marker sets. Analysis of these sets on several marker se- lection tasks suggests that these methods can lead to solutions that accurately distinguish different phenotypes in the data.},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  title={Multiset multicover methods for discriminative marker selection},
+  author={Euxhen Hasanaj and Amir Alavi and Anupam Gupta and Barnabas Poczos and Ziv Bar-Joseph},
+  journal={Cell Reports Methods},
+  month={10},
+  year={2022},
+  pdf={MM.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{Hasanaj2022,
+  abbr={NatureComm},
+  code={https://github.com/euxhenh/cellar},
+  abstract={Cell type assignment is a major challenge for all types of high throughput single cell data. In many cases such assignment requires the repeated manual use of external and complementary data sources. To improve the ability to uniformly assign cell types across large consortia, platforms and modalities we developed Cellar, a software tool that provides interactive support to all the different steps involved in the assignment and dataset comparison process. We discuss the different methods implemented by Cellar, how these can be used with different data types, how to combine complementary data types and how to analyze and visualize spatial data. We demonstrate the advantages of Cellar by using it to annotate several HuBMAP datasets from multi-omics single-cell sequencing and spatial proteomics studies. Cellar is open-source and includes several annotated HuBMAP datasets.
+  Availability https://cellar.cmu.hubmapconsortium.org/app/cellar},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  issn = {2041-1723},
+  issue = {1},
+  title={Interactive single-cell data analysis using Cellar},
+  author={Euxhen Hasanaj and Jingtao Wang and Arjun Sarathi and Jun Ding and Ziv Bar-Joseph},
+  journal={Nature Communications 13:1},
+  month = {4},
+  year={2022},
+  pages = {1-6},
+  volume = {13},
+  publisher={Nature Publishing Group},
+  pdf={Cellar.pdf}
 }
