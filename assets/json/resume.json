@@ -78,6 +78,44 @@
       "endDate": "2018"
     }
   ],
+  "teaching": [
+    {
+      "course": "Machine Learning with Large Datasets",
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "startDate": "2023"
+    },
+    {
+      "course": "Convex Optimization",
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "startDate": "2022"
+    },
+    {
+      "course": "Abstract Algebra",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2018"
+    },
+    {
+      "course": "Mathematical Statistics",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2018"
+    },
+    {
+      "course": "Calculus",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2017"
+    },
+    {
+      "course": "Linear Algebra",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2017"
+    }
+  ],
   "awards": [
     {
       "title": "4th place at the NeurIPS AutoML Decathlon Competition",
