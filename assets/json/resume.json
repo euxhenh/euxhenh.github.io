@@ -45,13 +45,31 @@
       "endDate": "2018"
     }
   ],
+  "research": [
+    {
+      "name": "Carnegie Mellon University",
+      "position": "Research Assistant",
+      "startDate": "2019-12",
+      "endDate": "Present",
+      "summary": "Leveraging machine learning to uncover mechanisms involved in cellular senescence and aging.",
+      "highlights": ["Machine Learning", "Senescence", "Biomarkers", "Drug Discovery", "Aging"]
+    },
+    {
+      "name": "University of Pittsburgh Medical Center (UPMC)",
+      "position": "Laboratory Intern",
+      "startDate": "2022-11",
+      "endDate": "Present",
+      "summary": "Performing gene knockout/overexpression experiments and Bleomycin-induced DNA damage to determine causal effects of marker genes on cellular senescence.",
+      "highlights": ["Senescence", "Cell cultures", "Lab work"]
+    }
+  ],
   "work": [
     {
       "name": "Sanofi",
       "position": "Computational Biology Research Intern",
       "startDate": "2023-05",
       "endDate": "2023-08",
-      "summary": "Analyzing longitudinal gene expression data from patients with a few time points.",
+      "summary": "Analyzed longitudinal gene expression data from patients with a few time points.",
       "highlights": ["Trajectory inference"]
     },
     {
@@ -77,44 +95,6 @@
       "endDate": "2018-08",
       "summary": "Investigated deep learning methods for real-time face detection and developed face tracking algorithms.",
       "highlights": ["Computer Vision"]
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Machine Learning with Large Datasets",
-      "institution": "Carnegie Mellon University",
-      "location": "Pittsburgh, PA",
-      "startDate": "2023"
-    },
-    {
-      "course": "Convex Optimization",
-      "institution": "Carnegie Mellon University",
-      "location": "Pittsburgh, PA",
-      "startDate": "2022"
-    },
-    {
-      "course": "Abstract Algebra",
-      "institution": "American University in Bulgaria",
-      "location": "Blagoevgrad, Bulgaria",
-      "startDate": "2018"
-    },
-    {
-      "course": "Mathematical Statistics",
-      "institution": "American University in Bulgaria",
-      "location": "Blagoevgrad, Bulgaria",
-      "startDate": "2018"
-    },
-    {
-      "course": "Calculus",
-      "institution": "American University in Bulgaria",
-      "location": "Blagoevgrad, Bulgaria",
-      "startDate": "2017"
-    },
-    {
-      "course": "Linear Algebra",
-      "institution": "American University in Bulgaria",
-      "location": "Blagoevgrad, Bulgaria",
-      "startDate": "2017"
     }
   ],
   "awards": [
@@ -192,6 +172,70 @@
       "publisher": "Nature Communications",
       "releaseDate": "2022",
       "url": "https://www.nature.com/articles/s41467-022-29744-0"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "NIH Cellular Senescence Network (SenNet) Consortium",
+      "position": "Member - Consortium Organization and Data Coordinating Center (CODCC)",
+      "startDate": "2022-09",
+      "endDate": "Present",
+      "summary": "Developing methods to discover senescence biomarkers as a member of the Biomarker Working Group.",
+      "highlights": ["Senescence"]
+    },
+    {
+      "name": "NIH Human BioMolecular Atlas Program (HuBMAP) Consortium",
+      "position": "Member - Platform Development and Data Analysis Team",
+      "startDate": "2019-08",
+      "endDate": "2020-12",
+      "summary": "Developed software tools to enable large-scale collaborations, integration, and comparisons across many different single-cell omics platforms and modalities.",
+      "highlights": ["single-cell technologies"]
+    },
+    {
+      "name": "Mathematics Club (Polygon)",
+      "position": "Founder/President",
+      "startDate": "2017-09",
+      "endDate": "2019-05",
+      "summary": "Organized several events including talks by students and professors, mathematics competitions, and social events between math students and professors.",
+      "highlights": "Math Club"
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Machine Learning with Large Datasets",
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "startDate": "2023"
+    },
+    {
+      "course": "Convex Optimization",
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "startDate": "2022"
+    },
+    {
+      "course": "Abstract Algebra",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2018"
+    },
+    {
+      "course": "Mathematical Statistics",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2018"
+    },
+    {
+      "course": "Calculus",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2017"
+    },
+    {
+      "course": "Linear Algebra",
+      "institution": "American University in Bulgaria",
+      "location": "Blagoevgrad, Bulgaria",
+      "startDate": "2017"
     }
   ],
   "languages": [
