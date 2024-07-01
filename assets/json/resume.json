@@ -19,7 +19,7 @@
       "area": "Machine Learning",
       "studyType": "PhD",
       "startDate": "2021",
-      "endDate": "2025"
+      "endDate": "2024"
     },
     {
       "institution": "Carnegie Mellon University",
@@ -161,6 +161,12 @@
     }
   ],
   "publications": [
+    {
+      "name": "Integrating patients in time series clinical transcriptomics data",
+      "publisher": "Bioinformatics (ISMB Proceedings)",
+      "releaseDate": "2024",
+      "url": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i151/7700864?login=true"
+    },
     {
       "name": "Multiset multicover methods for discriminative marker selection",
       "publisher": "Cell Reports Methods",
