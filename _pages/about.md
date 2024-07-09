@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 Hello!
 
-I'm a third-year <b>PhD student</b> in <a href="https://www.ml.cmu.edu/">Machine Learning</a>
+I'm a <b>PhD candidate</b> in <a href="https://www.ml.cmu.edu/">Machine Learning</a>
 at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>,
 advised by <a href="http://www.cs.cmu.edu/~zivbj/">Ziv Bar-Joseph</a> and <a href="http://www.cs.cmu.edu/~bapoczos/">Barnab&aacute;s P&oacute;czos</a>.
 My research interests lie in the intersection of `Artificial Intelligence` and `Biotechnology`, in particular,
