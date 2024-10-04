@@ -160,26 +160,6 @@
       "date": "<2013"
     }
   ],
-  "publications": [
-    {
-      "name": "Integrating patients in time series clinical transcriptomics data",
-      "publisher": "Bioinformatics (ISMB Proceedings)",
-      "releaseDate": "2024",
-      "url": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i151/7700864?login=true"
-    },
-    {
-      "name": "Multiset multicover methods for discriminative marker selection",
-      "publisher": "Cell Reports Methods",
-      "releaseDate": "2022",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2667237522002296?via%3Dihub"
-    },
-    {
-      "name": "Interactive single-cell data analysis using Cellar",
-      "publisher": "Nature Communications",
-      "releaseDate": "2022",
-      "url": "https://www.nature.com/articles/s41467-022-29744-0"
-    }
-  ],
   "organizations": [
     {
       "name": "NIH Cellular Senescence Network (SenNet) Consortium",
