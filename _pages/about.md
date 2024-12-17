@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in Machine Learning at CMU
+subtitle: Research Scientist, Machine Learning @ GenBio AI
 
 profile:
   align: right
