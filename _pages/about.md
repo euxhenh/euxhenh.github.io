@@ -24,7 +24,8 @@ models, and biological foundation models.
 
 I completed my PhD in <a href="https://www.ml.cmu.edu/">Machine
 Learning</a> from <a href='https://www.cmu.edu/'>Carnegie Mellon
-University</a>, where I was advised by <a href="http://www.cs.cmu.edu/~zivbj/">Ziv Bar-Joseph</a> and <a href="http://www.cs.cmu.edu/~bapoczos/">Barnab&aacute;s P&oacute;czos</a>. My thesis focused on applying machine learning to biomarker discovery,
+University</a>, where I was advised by <a href="http://www.cs.cmu.edu/~zivbj/">Ziv Bar-Joseph</a> and
+<a href="http://www.cs.cmu.edu/~bapoczos/">Barnab&aacute;s P&oacute;czos</a>. My thesis focused on applying machine learning to biomarker discovery,
 specifically targeting cellular senescence (a driver of aging). I also have
 an MS in Machine Learning from CMU and a BA in Computer Science and Mathematics from AUBG.
 
