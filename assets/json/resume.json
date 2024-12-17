@@ -45,24 +45,6 @@
       "endDate": "2018"
     }
   ],
-  "research": [
-    {
-      "name": "Carnegie Mellon University",
-      "position": "Research Assistant",
-      "startDate": "2019-12",
-      "endDate": "2024-12",
-      "summary": "Leveraging machine learning to uncover mechanisms involved in cellular senescence and aging.",
-      "highlights": ["Machine Learning", "Senescence", "Biomarkers", "Drug Discovery", "Aging"]
-    },
-    {
-      "name": "University of Pittsburgh Medical Center (UPMC)",
-      "position": "Laboratory Intern",
-      "startDate": "2022-11",
-      "endDate": "2024-12",
-      "summary": "Performing gene knockout/overexpression experiments and Bleomycin-induced DNA damage to determine causal effects of marker genes on cellular senescence.",
-      "highlights": ["Senescence", "Cell cultures", "Lab work"]
-    }
-  ],
   "work": [
     {
       "name": "GenBio AI",
