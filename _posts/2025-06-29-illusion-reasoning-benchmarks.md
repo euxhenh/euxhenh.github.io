@@ -6,8 +6,6 @@ description: A response to "The Illusion of Thinking"
 tags: LLMs reasoning benchmark
 ---
 
-## The Illusion of Reasoning Benchmarks
-
 In [*The Illusion of Thinking*](https://machinelearning.apple.com/research/illusion-of-thinking) (Shojaee et al., 2025), the authors investigate
 whether LLMs truly exhibit reasoning capabilities. Using controlled puzzle
 environments like the Tower of Hanoi, Blocks World, and River Crossing, they
