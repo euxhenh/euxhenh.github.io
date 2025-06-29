@@ -6,7 +6,7 @@ description: A response to "The Illusion of Thinking"
 tags: LLMs reasoning benchmark
 ---
 
-In [*The Illusion of Thinking*](https://machinelearning.apple.com/research/illusion-of-thinking) (Shojaee et al., 2025), the authors investigate
+In [_The Illusion of Thinking_](https://machinelearning.apple.com/research/illusion-of-thinking) (Shojaee et al., 2025), the authors investigate
 whether LLMs truly exhibit reasoning capabilities. Using controlled puzzle
 environments like the Tower of Hanoi, Blocks World, and River Crossing, they
 systematically vary problem complexity and analyze both final answers and the
@@ -30,17 +30,17 @@ number of tokens spent thinking, despite having ample inference budget. The
 authors conclude that these models do not possess robust, generalizable
 reasoning abilities and often resort to pattern matching or heuristics.
 
-This evaluation paradigm has a critical limitation: *it equates reasoning with
-successful execution on large-scale planning tasks*. In reality, even humans
-rarely attempt to fully *execute* high-complexity problems (like the 20-disk
-Tower of Hanoi). They describe a recursive *strategy* and, if needed, prove its
+This evaluation paradigm has a critical limitation: _it equates reasoning with
+successful execution on large-scale planning tasks_. In reality, even humans
+rarely attempt to fully _execute_ high-complexity problems (like the 20-disk
+Tower of Hanoi). They describe a recursive _strategy_ and, if needed, prove its
 correctness. Reasoning should not be judged solely by whether an agent can
 follow through every step, but by whether it can understand and articulate a
 generalizable plan.
 
 Reasoning is about **forming mental models and generalizing patterns**, not
-brute-force enumeration. There’s a distinction between *declarative knowledge*
-(“I know how it works”) and *procedural knowledge* (“I can carry it out”).
+brute-force enumeration. There’s a distinction between _declarative knowledge_
+(“I know how it works”) and _procedural knowledge_ (“I can carry it out”).
 Models may exhibit the former without the latter. Yet even within declarative
 reasoning, there is plenty of meaningful cognitive work that can occur,
 identifying structure, articulating valid solution paths, proving why a certain
@@ -51,7 +51,7 @@ through every step of an execution-heavy task.
 
 Current puzzle-based benchmarks (like in the paper) measure step-by-step
 **correctness** under token limits and planning bandwidth. This punishes models
-for lack of *execution capacity*, not for lack of *strategic insight*. A better
+for lack of _execution capacity_, not for lack of _strategic insight_. A better
 test of reasoning would focus on whether a model can generalize rules, derive
 patterns, or prove properties whose complexity scales with the problem. For
 example, logical inference tasks (“Given a set of rules and premises, what
@@ -67,7 +67,7 @@ In sum, the collapse of LLM performance on highly complex procedural puzzles may
 say more about their execution limits than their reasoning potential. If we want
 to understand whether LLMs can reason, we must move beyond testing their ability
 to follow steps and toward testing their ability to generate, explain, and
-generalize *strategies*. Reasoning is not about grinding through complexity,
+generalize _strategies_. Reasoning is not about grinding through complexity,
 it’s about seeing through it. Until benchmarks evolve to reflect this, we risk
 underestimating what LLMs already do well, and misunderstanding what reasoning
 truly requires.
@@ -76,6 +76,6 @@ truly requires.
 
 #### References
 
-[1] Shojaee, P. *et al.* The illusion of thinking: Understanding the strengths
-and limitations of reasoning models via the lens of problem complexity. *arXiv
-[cs.AI]* (2025).
+[1] Shojaee, P. _et al._ The illusion of thinking: Understanding the strengths
+and limitations of reasoning models via the lens of problem complexity. _arXiv
+[cs.AI]_ (2025).
