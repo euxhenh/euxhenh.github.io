@@ -14,10 +14,10 @@ intermediate reasoning steps (or “thought traces”) of several LLMs and LRMs.
 example, the River Crossing problem is defined as (Shoajaee et al. 2025):
 
 <blockquote style="font-size: 1em;">
-River Crossing is a constraint satisfaction planning puzzle involving <strong>n</strong>
-actors and their corresponding <strong>n</strong> agents who must cross a river using a boat.
-The goal is to transport all <strong>2n</strong> individuals from the left bank to the right
-bank. The boat can carry at most <strong>k</strong> individuals and cannot travel empty.
+River Crossing is a constraint satisfaction planning puzzle involving <em>n</em>
+actors and their corresponding <em>n</em> agents who must cross a river using a boat.
+The goal is to transport all <em>2n</em> individuals from the left bank to the right
+bank. The boat can carry at most <em>k</em> individuals and cannot travel empty.
 Invalid situations arise when an actor is in the presence of another agent
 without their own agent present, as each agent must protect their client from
 competing agents.
